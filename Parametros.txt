@@ -1,0 +1,28 @@
+
+Parâmetros da Simulação
+
+Irr=1000;
+Temp=25;
+Npp=1;
+Nps=8;
+Vmppt=39.8;
+ts = 1*10^-6;
+fs = 10^4;
+L = 5*10^-3;
+RL = 0.1;
+C = 70*10^-6;
+RC = 0.1;
+RD = 0.1;
+VBUS = 450;
+RSW = 0.1;
+
+
+Parâmetros que eu usei no cálculo de perdas de comutação do transistor:
+
+Vth = 4; 
+Vdr = 15;
+Qgd = 80*10^-9; 
+gfs = 9.3; 
+RGint = 0.1; 
+RG = 6.2;
+Ciss = 2600*10^-12;
